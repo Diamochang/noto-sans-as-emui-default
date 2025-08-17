@@ -6,21 +6,19 @@ A Magisk module which can set Noto Sans as default fonts (including Chinese) sys
 
 Currently tested on EMUI 8, if you find any problems in other EMUI versions, please report to me.
 
+The version number is updated with the version number of [Noto Sans CJK](https://github.com/notofonts/noto-cjk/releases?q=Sans).
+
 这个 Magisk 模块可以设置 Noto Sans 为默认字体（包括中文字体），除非你通过“主题”应用（com.huawei.android.thememanager）更换了显示字体。
 
 目前只在 EMUI 8 上测试过，如果你在其他 EMUI 版本上发现问题，请向我反馈。
 
+版本号随 [Noto Sans CJK](https://github.com/notofonts/noto-cjk/releases?q=Sans) 的版本号更新。
+
 ## Usage 使用
 
-1. Download the module from release page.
-2. Magisk app > Modules > Install from storage > Select the downloaded module file.
-3. When the installation is complete, reboot your device.
-
----
-
-1. 从发行版页面下载模块。
-2. Magisk 应用 > 模块 > 从本地安装 > 选择下载的模块文件。
-3. 安装完成后，重启你的设备。
+1. Download the module from release page. 从发行版页面下载模块。
+2. Magisk app > Modules > Install from storage > Select the downloaded module file. Magisk 应用 > 模块 > 从本地安装 > 选择下载的模块文件。
+3. When the installation is complete, reboot your device. 安装完成后，重启你的设备。
 
 ## Principal 原理
 
@@ -35,3 +33,5 @@ In this module, the Chinese font used is Noto Sans SC, which follows the simplif
 ## License 许可证
 
 GNU General Public License v3.0 or any later version. GNU 通用公共许可证第三版或任何以后版本。
+
+The fonts used in this module are licensed under [SIL Open Font License](OFL.txt) by their respective authors. 本模块中使用的字体均由其各自的作者根据 [SIL 开放字体许可证](OFL.txt) 获得许可。

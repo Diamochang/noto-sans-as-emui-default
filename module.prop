@@ -1,0 +1,6 @@
+id=noto-sans-as-emui-default
+name=Noto Sans as EMUI Default
+version=2.004
+versionCode=1
+author=Diamochang (Mike Wang)
+description=A Magisk module which can set Noto Sans as default fonts (including Chinese) systemlessly in Huawei EMUI.
