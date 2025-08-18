@@ -26,7 +26,7 @@ Taking EMUI 8 as an example, there are four files in `/system/fonts` that contro
 
 In this module, the Chinese font used is Noto Sans SC, which follows the simplified Chinese glyph standards of mainland China.
 
-以 EMUI 8 为例，在 `/system/fonts` 中控制默认字体的有四个文件，分别为：`DroidSans.ttf`、`DroidSans-Bold.ttf`、`DroidSansChinese.ttf` 和 `DroidSansMono.ttf`。其中，`DroidSans.ttf` 指向 Roboto 字体的 Regular 字重，`DroidSans-Bold.ttf` 指向 Roboto 的 Bold 字重，`DroidSansChinese.ttf` 实际为“汉仪旗黑-50S”，`DroidSansMono.ttf` 疑似为定制字体。在一般情况下，我们只需要替换 `DroidSans.ttf`、`DroidSans-Bold.ttf` 和 `DroidSansChinese.ttf` 为合适字重的 Noto Sans 及其中文字体，就可以把默认字体改成 Noto Sans。
+以 EMUI 8 为例，在 `/system/fonts` 中控制默认字体的有四个文件，分别为：`DroidSans.ttf`、`DroidSans-Bold.ttf`、`DroidSansChinese.ttf` 和 `DroidSansMono.ttf`。其中，`DroidSans.ttf` 指向 Roboto 字体的 Regular 字重，`DroidSans-Bold.ttf` 指向 Roboto 的 Bold 字重，`DroidSansChinese.ttf` 实际为“汉仪旗黑-50S”，`DroidSansMono.ttf` 疑似为定制字体。在一般情况下，我们只需要替换 Roboto 字体的 Regular 和 Bold 字重以及 `DroidSansChinese.ttf` 为合适字重的 Noto Sans 及其中文字体，就可以把默认字体改成 Noto Sans。
 
 在本模块中，使用的中文字体是 Noto Sans SC，它遵循中国大陆的简体中文字形标准。
 
