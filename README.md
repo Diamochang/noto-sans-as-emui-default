@@ -22,7 +22,7 @@ The version number is updated with the version number of [Noto Sans CJK](https:/
 
 ## Principal 原理
 
-Taking EMUI 8 as an example, there are four files in `/system/fonts` that control the default font: `DroidSans.ttf`, `DroidSans-Bold.ttf`, `DroidSansChinese.ttf`, and `DroidSansMono.ttf`. Among them, `DroidSans.ttf` points to the Regular weight of the Roboto font, `DroidSans-Bold.ttf` points to the Bold weight of Roboto, `DroidSansChinese.ttf` actually contains "HanYiQiHei-50S", and `DroidSansMono.ttf` is suspected to be a custom font. In general, replacing `DroidSans.ttf`, `DroidSans-Bold.ttf`, and `DroidSansChinese.ttf` with Noto Sans and its Chinese fonts of appropriate weights will change the default font to Noto Sans.
+Taking EMUI 8 as an example, there are four files in `/system/fonts` that control the default font: `DroidSans.ttf`, `DroidSans-Bold.ttf`, `DroidSansChinese.ttf`, and `DroidSansMono.ttf`. Among them, `DroidSans.ttf` points to the Regular weight of the Roboto font, `DroidSans-Bold.ttf` points to the Bold weight of Roboto, `DroidSansChinese.ttf` actually contains "HanYiQiHei-50S", and `DroidSansMono.ttf` is suspected to be a custom font. In general, replacing Regular and Bold weight of the Roboto font, and `DroidSansChinese.ttf` with Noto Sans and its Chinese fonts of appropriate weights will change the default font to Noto Sans.
 
 In this module, the Chinese font used is Noto Sans SC, which follows the simplified Chinese glyph standards of mainland China.
 
